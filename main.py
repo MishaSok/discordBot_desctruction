@@ -1,3 +1,5 @@
+# BY // MISHASOK
+
 import discord
 from discord.ext import commands
 from config import *
@@ -13,7 +15,7 @@ intents = discord.Intents.all()
 
 @bot.event
 async def on_ready():
-    for channel in bot.get_guild(880509155817971713).channels:
+    for channel in bot.get_guild(settings['server_id']).channels:
         channels_mass.append(channel.id)
     print(bot.user.name)
     print(bot.user.id)

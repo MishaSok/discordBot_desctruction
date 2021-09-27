@@ -46,5 +46,4 @@ async def backdoor(ctx):
     except Exception as Error:
         print('Backdoor command error:', Error)
 
-
 bot.run(settings['token'])

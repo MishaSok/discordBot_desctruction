@@ -1,16 +1,11 @@
+import os
+print(os.path)
+
 settings = {
-    'token': 'hide',
+    'token': 'ODgwNTA5Nzc1MTk1MDQxNzkz.YSfUoQ.cJgPlEWSbIRtN0QKOGxlOGuhVys',
     'prefix': '!',
     'server_id': '880509155817971713',
-    'channel_name': 'fuck-you'
+    'channel_name': 'test-chanel',
 }
 
-funny_sentenses = ["Вас заскамили на 10кг сала",
-                   "Взлом произведён из Крым(Россия)",
-                   "Ваше очко было разорвано хакерами из России",
-                   "Украина це Европа!:pig: :flag_eu:",
-                   "Standoff - залупа для бомжей",
-                   "Сыр хохланд делают из хохлов",
-                   "Сало уронило!",
-                   "Когда я ебу твою мать она хрюкает:pig:",
-                   ]
+funny_sentenses = ["Успешно!", "Успешно"]
